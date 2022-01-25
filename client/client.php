@@ -23,12 +23,12 @@ $result = $stmt->Fetch(PDO::FETCH_ASSOC)
 <div class="container">
     <div class="row">
         <div class="col-3 ">
-            <p>nom:<?php echo htmlspecialchars($result['Nom']); ?></p>
+            <p>nom:<span>&nbsp;<?php echo htmlspecialchars($result['Nom']); ?></span></p>
         </div>
         <div class="col-3"></div>
-        <p>prenom:<?php echo htmlspecialchars($result['Prénom']); ?></p>
+        <p>prenom:<span>&nbsp;<?php echo htmlspecialchars($result['Prenom']); ?></span></p>
         <div class="col-3"></div>
-        <p>date naisance:<?php echo htmlspecialchars($result['Datedenaissance']); ?></p>
+        <p>date naisance:<span>&nbsp;<?php echo htmlspecialchars($result['Datedenaissance']); ?></span></p>
         <div class="col-3"></div>
         <p>numero de telephone :</p>
         <div class="col-3"></div>
