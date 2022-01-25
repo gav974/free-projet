@@ -8,10 +8,10 @@
 </head>
 <body>
 <?php
-include 'connect.php'
+include '../client/back/dbconnect/connect.php'
 ?>
 <pre>
-    $s
+    <?php echo $stmt; ?> 
 </pre>
 </body>
 </html>

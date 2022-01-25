@@ -1,6 +1,6 @@
 <?php
 
-include("C:\Users\ECLAP\Desktop\free projet\client\back\dbconnect\dbconnect.php");
+include("C:/Users/ECLAP/Desktop/free projet/client/back/dbconnect/dbconnect.php");
  
 
 

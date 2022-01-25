@@ -1,26 +1,13 @@
 <?php
 
-
-$dbname ='snackchexo';
-$mdp ='Freeprojet1';
-$username ='snackchexo';
-$host='snackchexo.mysql.db';
-
-
-  
-
-    try {
-        $db = new PDO('mysql:host=$host,dbname=$dbname;charset=utf8mb4',$username, $mdp);
+      try {
+        $db = new PDO('mysql:host=localhost;dbname=mydb;charset=utf8mb4', 'root', '');
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);	
+        $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
       } catch (PDOException $e) {
         echo "Connection failed : ". $e->getMessage();
       }
-    
-   
-
-
-
+      ?>
 
 
 
