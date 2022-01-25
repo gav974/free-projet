@@ -1,3 +1,8 @@
+<?php
+session_start();
+include("back/dbconnect/dbconnect.php");
+ include("modules/connexionuser/requete_login.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
