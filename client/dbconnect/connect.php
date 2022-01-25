@@ -1,9 +1,7 @@
 <?php
 
-include("C:/Users/ECLAP/Desktop/free projet/client/back/dbconnect/dbconnect.php");
+// include './client/back/dbconnect/dbconnect.php';
  
-
-
   $sql = "SELECT * FROM client ";
    
   try{
@@ -18,5 +16,6 @@ include("C:/Users/ECLAP/Desktop/free projet/client/back/dbconnect/dbconnect.php"
     echo $e->getMessage();
   }
 
+   ;
 
 ?>

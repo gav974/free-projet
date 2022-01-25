@@ -13,15 +13,22 @@
         <h1>Espace Client</h1>
     </div>
 </div>
+<?php
+include '../client/dbconnect/dbconnect.php';
+include '../client/dbconnect/connect.php';
+
+$result = $stmt->Fetch(PDO::FETCH_ASSOC)
+?>
+
 <div class="container">
     <div class="row">
         <div class="col-3 ">
-            <p>nom:</p>
+            <p>nom:<?php echo htmlspecialchars($result['Nom']); ?></p>
         </div>
         <div class="col-3"></div>
-        <p>prenom:</p>
+        <p>prenom:<?php echo htmlspecialchars($result['Prénom']); ?></p>
         <div class="col-3"></div>
-        <p>date naisance:</p>
+        <p>date naisance:<?php echo htmlspecialchars($result['Datedenaissance']); ?></p>
         <div class="col-3"></div>
         <p>numero de telephone :</p>
         <div class="col-3"></div>
