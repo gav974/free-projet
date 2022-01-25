@@ -1,7 +1,7 @@
 <?php 
 
     include("back/dbconnect/dbconnect.php");
-    include("gestion/requete_affiche_gestionnaire.php");
+    include("requete_affiche_gestionnaire.php");
   ?>
   
   <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
