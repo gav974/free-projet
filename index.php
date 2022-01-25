@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
 </head>
-<body>
-    <button name="bouton1" type="submit">Gestionnaire</button>
-    <button name="bouton2" type="submit">Espace Client</button>
-    
-</body>
+    <body>
+        <header>
+            <button name="bouton1" type="submit">Gestionnaire</button>
+            <button name="bouton2" type="submit">Espace Client</button>
+        </header>
+    </body>
 </html>
