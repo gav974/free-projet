@@ -7,6 +7,11 @@
     <title>Espace Client</title>
 </head>
 <body>
-    
+<?php
+include 'connect.php'
+?>
+<pre>
+    $s
+</pre>
 </body>
 </html>

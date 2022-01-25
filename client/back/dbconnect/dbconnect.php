@@ -1,10 +1,10 @@
 <?php
 
 
-      $dbname ='snackchexo';
-     $mdp ='Freeprojet1';
-     $username ='snackchexo';
-    public $host='snackchexo.mysql.db';
+$dbname ='snackchexo';
+$mdp ='Freeprojet1';
+$username ='snackchexo';
+$host='snackchexo.mysql.db';
 
 
   
