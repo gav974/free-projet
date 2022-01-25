@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -615,5 +614,3 @@ https://templatemo.com/tm-543-breezed
 
   </body>
 </html>
-
-?>
