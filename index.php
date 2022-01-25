@@ -8,8 +8,8 @@
 </head>
     <body>
         <header>
-            <button name="bouton1" type="submit">Gestionnaire</button>
-            <button name="bouton2" type="submit">Espace Client</button>
+            <a href="http://"><button name="bouton1" type="submit">Gestionnaire</button></a>
+            <a href="http://"><button name="bouton2" type="submit">Espace Client</button></a>
         </header>
     </body>
 </html>
